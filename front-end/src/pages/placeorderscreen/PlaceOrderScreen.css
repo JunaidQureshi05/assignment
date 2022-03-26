@@ -1,0 +1,47 @@
+.PlaceOrder {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.PlaceOrder ul {
+  list-style: none;
+}
+
+.summary div {
+  display: flex;
+  height: 30px;
+  justify-content: space-between;
+}
+.PlaceOrder .price {
+  border: 1px solid black;
+  height: 400px;
+  width: 400px;
+  display: flex;
+}
+
+.PlaceOrder button {
+  width: 200px;
+  font-size: 20px;
+}
+
+.PlaceOrder .price > div {
+  width: 100%;
+}
+.PlaceOrder .price ul {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.PlaceOrder .price ul li div {
+  display: flex;
+}
+
+.PlaceOrder .price .bold {
+  /* font-size: 20px; */
+  font-weight: bold;
+}

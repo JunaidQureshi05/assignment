@@ -1,0 +1,8 @@
+.Payment {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.payment-container {
+  width: 400px;
+}

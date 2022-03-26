@@ -1,0 +1,31 @@
+.Cart {
+  display: flex;
+  max-height: 100vh;
+  justify-content: space-around;
+}
+
+.cartItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cartItem img {
+  height: 50px;
+  width: 50px;
+}
+
+.Cart ul {
+  list-style: none;
+}
+.Cart button {
+  border: none;
+}
+.Cart .btn-block {
+  border: 1px solid black;
+  font-size: 16px;
+}
+
+.Cart i {
+  font-size: 16px;
+}

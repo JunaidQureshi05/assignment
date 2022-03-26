@@ -1,0 +1,23 @@
+.Header {
+  background-color: lightgray;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 30px;
+}
+
+.Header ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-item {
+  margin: 0 10px;
+}
+
+.branding {
+  font-weight: normal;
+  text-decoration: underline;
+}

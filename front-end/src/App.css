@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+}
+
+.App {
+  display: grid;
+  height: 100vh;
+  grid-template-rows: 70px auto;
+}
+
+.content {
+  overflow: auto;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}

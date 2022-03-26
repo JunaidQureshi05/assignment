@@ -1,0 +1,11 @@
+.SignIn {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  margin: auto;
+}
+
+.SignIn input {
+  margin: 20px 0;
+  height: 40px;
+}
